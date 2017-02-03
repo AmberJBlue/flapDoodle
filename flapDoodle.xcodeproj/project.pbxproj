@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		32901C701E444E450066C6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901C6F1E444E450066C6BA /* AppDelegate.swift */; };
 		32901C721E444E450066C6BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32901C711E444E450066C6BA /* GameScene.sks */; };
-		32901C741E444E450066C6BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901C731E444E450066C6BA /* GameScene.swift */; };
 		32901C761E444E450066C6BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901C751E444E450066C6BA /* GameViewController.swift */; };
 		32901C791E444E450066C6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32901C771E444E450066C6BA /* Main.storyboard */; };
 		32901C7B1E444E460066C6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32901C7A1E444E460066C6BA /* Assets.xcassets */; };
 		32901C7E1E444E460066C6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32901C7C1E444E460066C6BA /* LaunchScreen.storyboard */; };
 		32901C891E444E460066C6BA /* flapDoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901C881E444E460066C6BA /* flapDoodleTests.swift */; };
 		32901C941E444E460066C6BA /* flapDoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901C931E444E460066C6BA /* flapDoodleUITests.swift */; };
+		32901CA21E444E660066C6BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA11E444E660066C6BA /* GameScene.swift */; };
+		32901CA31E444E660066C6BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA11E444E660066C6BA /* GameScene.swift */; };
+		32901CA41E444E660066C6BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA11E444E660066C6BA /* GameScene.swift */; };
+		32901CA61E444E810066C6BA /* RandomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA51E444E810066C6BA /* RandomFunc.swift */; };
+		32901CA71E444E810066C6BA /* RandomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA51E444E810066C6BA /* RandomFunc.swift */; };
+		32901CA81E444E810066C6BA /* RandomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32901CA51E444E810066C6BA /* RandomFunc.swift */; };
+		32901CAD1E444F230066C6BA /* die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAA1E444F230066C6BA /* die.mp3 */; };
+		32901CAE1E444F230066C6BA /* die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAA1E444F230066C6BA /* die.mp3 */; };
+		32901CAF1E444F230066C6BA /* die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAA1E444F230066C6BA /* die.mp3 */; };
+		32901CB01E444F230066C6BA /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAB1E444F230066C6BA /* jump.wav */; };
+		32901CB11E444F230066C6BA /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAB1E444F230066C6BA /* jump.wav */; };
+		32901CB21E444F230066C6BA /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAB1E444F230066C6BA /* jump.wav */; };
+		32901CB31E444F230066C6BA /* ruby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAC1E444F230066C6BA /* ruby.wav */; };
+		32901CB41E444F230066C6BA /* ruby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAC1E444F230066C6BA /* ruby.wav */; };
+		32901CB51E444F230066C6BA /* ruby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32901CAC1E444F230066C6BA /* ruby.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +53,6 @@
 		32901C6C1E444E450066C6BA /* flapDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flapDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32901C6F1E444E450066C6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32901C711E444E450066C6BA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		32901C731E444E450066C6BA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		32901C751E444E450066C6BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		32901C781E444E450066C6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32901C7A1E444E460066C6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		32901C8F1E444E460066C6BA /* flapDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flapDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32901C931E444E460066C6BA /* flapDoodleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flapDoodleUITests.swift; sourceTree = "<group>"; };
 		32901C951E444E460066C6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32901CA11E444E660066C6BA /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		32901CA51E444E810066C6BA /* RandomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunc.swift; sourceTree = "<group>"; };
+		32901CAA1E444F230066C6BA /* die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = die.mp3; sourceTree = "<group>"; };
+		32901CAB1E444F230066C6BA /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		32901CAC1E444F230066C6BA /* ruby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ruby.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				32901C6E1E444E450066C6BA /* flapDoodle */,
+				32901CA91E444EF20066C6BA /* flapDoodleSFX */,
 				32901C871E444E460066C6BA /* flapDoodleTests */,
 				32901C921E444E460066C6BA /* flapDoodleUITests */,
 				32901C6D1E444E450066C6BA /* Products */,
@@ -102,9 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				32901C6F1E444E450066C6BA /* AppDelegate.swift */,
+				32901CA51E444E810066C6BA /* RandomFunc.swift */,
 				32901C711E444E450066C6BA /* GameScene.sks */,
-				32901C731E444E450066C6BA /* GameScene.swift */,
 				32901C751E444E450066C6BA /* GameViewController.swift */,
+				32901CA11E444E660066C6BA /* GameScene.swift */,
 				32901C771E444E450066C6BA /* Main.storyboard */,
 				32901C7A1E444E460066C6BA /* Assets.xcassets */,
 				32901C7C1E444E460066C6BA /* LaunchScreen.storyboard */,
@@ -129,6 +149,16 @@
 				32901C951E444E460066C6BA /* Info.plist */,
 			);
 			path = flapDoodleUITests;
+			sourceTree = "<group>";
+		};
+		32901CA91E444EF20066C6BA /* flapDoodleSFX */ = {
+			isa = PBXGroup;
+			children = (
+				32901CAA1E444F230066C6BA /* die.mp3 */,
+				32901CAB1E444F230066C6BA /* jump.wav */,
+				32901CAC1E444F230066C6BA /* ruby.wav */,
+			);
+			name = flapDoodleSFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32901CB01E444F230066C6BA /* jump.wav in Resources */,
+				32901CAD1E444F230066C6BA /* die.mp3 in Resources */,
 				32901C721E444E450066C6BA /* GameScene.sks in Resources */,
 				32901C7E1E444E460066C6BA /* LaunchScreen.storyboard in Resources */,
+				32901CB31E444F230066C6BA /* ruby.wav in Resources */,
 				32901C7B1E444E460066C6BA /* Assets.xcassets in Resources */,
 				32901C791E444E450066C6BA /* Main.storyboard in Resources */,
 			);
@@ -246,6 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32901CB41E444F230066C6BA /* ruby.wav in Resources */,
+				32901CB11E444F230066C6BA /* jump.wav in Resources */,
+				32901CAE1E444F230066C6BA /* die.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32901CB51E444F230066C6BA /* ruby.wav in Resources */,
+				32901CB21E444F230066C6BA /* jump.wav in Resources */,
+				32901CAF1E444F230066C6BA /* die.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32901C741E444E450066C6BA /* GameScene.swift in Sources */,
+				32901CA61E444E810066C6BA /* RandomFunc.swift in Sources */,
+				32901CA21E444E660066C6BA /* GameScene.swift in Sources */,
 				32901C761E444E450066C6BA /* GameViewController.swift in Sources */,
 				32901C701E444E450066C6BA /* AppDelegate.swift in Sources */,
 			);
@@ -273,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32901CA31E444E660066C6BA /* GameScene.swift in Sources */,
+				32901CA71E444E810066C6BA /* RandomFunc.swift in Sources */,
 				32901C891E444E460066C6BA /* flapDoodleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32901CA41E444E660066C6BA /* GameScene.swift in Sources */,
+				32901CA81E444E810066C6BA /* RandomFunc.swift in Sources */,
 				32901C941E444E460066C6BA /* flapDoodleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
